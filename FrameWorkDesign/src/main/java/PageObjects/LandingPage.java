@@ -9,7 +9,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import AbstractComponents.AbstractComponent;
@@ -20,7 +19,7 @@ public class LandingPage  extends AbstractComponent{
 	public static String url="https://www.flipkart.com/";
 	public static String loginDropdownXpath="//span[text()='Login']";
 	public static String loginTextXpath ="//span[text()='Login']";
-	protected static WebDriver driver;
+	public WebDriver driver;
 	WebDriverWait wait;
 	
 	public LandingPage(WebDriver driver) {
@@ -29,9 +28,6 @@ public class LandingPage  extends AbstractComponent{
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		PageFactory.initElements(driver, this);	
 	}
-	
-	@FindBy(css="._27h2j1")
-	WebElement fashionDropDown;
 	
 	@FindBy(css="._1BJVlg._11MZbx")
 	WebElement mensBottomWear;
@@ -61,10 +57,6 @@ public class LandingPage  extends AbstractComponent{
    @FindBy(css = "a[class='WKTcLC']")
    WebElement mensItem;
    
-	public void goTo()
-	{
-		driver.get("https://www.flipkart.com/");
-	}
 	public void searchItem(String item) {
 		searchBar.sendKeys(item);
 		searchBar.sendKeys(Keys.ENTER);
@@ -88,5 +80,7 @@ public class LandingPage  extends AbstractComponent{
 			driver.switchTo().window(childWindow);
 
 		}
-	
+	  public void goTo() {
+			driver.get("https://www.flipkart.com/");
+		}
 }

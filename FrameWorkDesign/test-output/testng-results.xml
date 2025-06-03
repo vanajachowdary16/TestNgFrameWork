@@ -1,105 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-02T21:51:46 IST" name="Default suite" finished-at="2025-06-02T21:51:46 IST" duration-ms="86">
+  <suite started-at="2025-06-03T15:23:29 IST" name="Default suite" finished-at="2025-06-03T15:23:32 IST" duration-ms="3328">
     <groups>
     </groups>
-    <test started-at="2025-06-02T21:51:46 IST" name="Default test" finished-at="2025-06-02T21:51:46 IST" duration-ms="86">
-      <class name="SeleniumTestNG.FlipKartHomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTestNG.FlipKartHomePageTest@55b0dcab]" started-at="2025-06-02T21:51:46 IST" name="setUp" finished-at="2025-06-02T21:51:46 IST" duration-ms="14" status="FAIL">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[C:\selenium-testng\TestNG_Framework\FrameWorkDesign\src\main\java\resources\GlobalData.properties (The system cannot find the path specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: C:\selenium-testng\TestNG_Framework\FrameWorkDesign\src\main\java\resources\GlobalData.properties (The system cannot find the path specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
-at TestUtility.TestWebDriverUtility.initializeDriver(TestWebDriverUtility.java:48)
-at TestUtility.TestWebDriverUtility.launchApplication(TestWebDriverUtility.java:70)
-at SeleniumTestNG.FlipKartHomePageTest.setUp(FlipKartHomePageTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
-at org.testng.TestRunner.beforeRun(TestRunner.java:646)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+    <test started-at="2025-06-03T15:23:29 IST" name="Default test" finished-at="2025-06-03T15:23:32 IST" duration-ms="3328">
+      <class name="SeleniumTestNG.FlipkartHomepageNavigationsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@37ceb1df]" started-at="2025-06-03T15:23:29 IST" name="setUp" finished-at="2025-06-03T15:23:31 IST" duration-ms="2846" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomePage()[pri:0, instance:SeleniumTestNG.FlipKartHomePageTest@55b0dcab]" started-at="2025-06-02T21:51:46 IST" name="testHomePage" finished-at="2025-06-02T21:51:46 IST" duration-ms="0" status="SKIP">
-          <exception class="java.io.FileNotFoundException">
-            <message>
-              <![CDATA[C:\selenium-testng\TestNG_Framework\FrameWorkDesign\src\main\java\resources\GlobalData.properties (The system cannot find the path specified)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.io.FileNotFoundException: C:\selenium-testng\TestNG_Framework\FrameWorkDesign\src\main\java\resources\GlobalData.properties (The system cannot find the path specified)
-at java.base/java.io.FileInputStream.open0(Native Method)
-at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-at java.base/java.io.FileInputStream.<init>(FileInputStream.java:111)
-at TestUtility.TestWebDriverUtility.initializeDriver(TestWebDriverUtility.java:48)
-at TestUtility.TestWebDriverUtility.launchApplication(TestWebDriverUtility.java:70)
-at SeleniumTestNG.FlipKartHomePageTest.setUp(FlipKartHomePageTest.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
-at org.testng.TestRunner.beforeRun(TestRunner.java:646)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.FileNotFoundException -->
+        <test-method signature="testNavigations()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@37ceb1df]" started-at="2025-06-03T15:23:31 IST" name="testNavigations" finished-at="2025-06-03T15:23:32 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHomePage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNG.FlipKartHomePageTest@55b0dcab]" started-at="2025-06-02T21:51:46 IST" name="tearDown" finished-at="2025-06-02T21:51:46 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- testNavigations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@37ceb1df]" started-at="2025-06-03T15:23:32 IST" name="tearDown" finished-at="2025-06-03T15:23:32 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumTestNG.FlipKartHomePageTest -->
+      </class> <!-- SeleniumTestNG.FlipkartHomepageNavigationsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
