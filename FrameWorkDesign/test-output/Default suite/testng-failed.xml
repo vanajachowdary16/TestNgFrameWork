@@ -6,8 +6,8 @@
       <class name="SeleniumTestNG.FlipKartHomePageTest">
         <methods>
           <include name="tearDown"/>
+          <include name="launchApplication"/>
           <include name="testHomePage"/>
-          <include name="setUp"/>
         </methods>
       </class> <!-- SeleniumTestNG.FlipKartHomePageTest -->
     </classes>
