@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-03T15:23:29 IST" name="Default suite" finished-at="2025-06-03T15:23:32 IST" duration-ms="3328">
+  <suite started-at="2025-06-13T14:41:44 IST" name="Default suite" finished-at="2025-06-13T14:42:00 IST" duration-ms="15632">
     <groups>
     </groups>
-    <test started-at="2025-06-03T15:23:29 IST" name="Default test" finished-at="2025-06-03T15:23:32 IST" duration-ms="3328">
+    <test started-at="2025-06-13T14:41:44 IST" name="Default test" finished-at="2025-06-13T14:42:00 IST" duration-ms="15632">
       <class name="SeleniumTestNG.FlipkartHomepageNavigationsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@37ceb1df]" started-at="2025-06-03T15:23:29 IST" name="setUp" finished-at="2025-06-03T15:23:31 IST" duration-ms="2846" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@37ceb1df]" started-at="2025-06-13T14:41:44 IST" name="setUp" finished-at="2025-06-13T14:41:48 IST" duration-ms="3759" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNavigations()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@37ceb1df]" started-at="2025-06-03T15:23:31 IST" name="testNavigations" finished-at="2025-06-03T15:23:32 IST" duration-ms="193" status="PASS">
+        <test-method signature="testNavigations()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@37ceb1df]" started-at="2025-06-13T14:41:48 IST" name="testNavigations" finished-at="2025-06-13T14:42:00 IST" duration-ms="11369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNavigations -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@37ceb1df]" started-at="2025-06-03T15:23:32 IST" name="tearDown" finished-at="2025-06-03T15:23:32 IST" duration-ms="244" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@37ceb1df]" started-at="2025-06-13T14:42:00 IST" name="tearDown" finished-at="2025-06-13T14:42:00 IST" duration-ms="454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -24,8 +24,7 @@ public class FlipkartHomepageNavigationsTest extends TestWebDriverUtility{
 	}
 	@Test
 	public void testNavigations() {
-		homenavigations.clickFashionDropdown();
-		
+		homenavigations.clickAllDropdowns();	
 	}
 
 }
