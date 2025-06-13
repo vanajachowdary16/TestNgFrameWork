@@ -42,6 +42,13 @@ public class AbstractComponent {
 	   WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 	   wait.until(ExpectedConditions.visibilityOf(locator));
    }
+   
+   public void waitForElementTobeClickable(WebElement element) {
+	   
+	   WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	   wait.until(ExpectedConditions.elementToBeClickable(element));
+	   
+   }
   /* public static void highlight(WebDriver driver, WebElement element) {
 		JavascriptExecutor js =(JavascriptExecutor)driver;
 		try {
