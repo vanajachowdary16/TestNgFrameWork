@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+<listeners>
+<listener class-name="TestUtility.TestListenersUtility"/>
+</listeners>
+  <test thread-count="5" name="HomePage Test">
+    <classes>
+      <class name="SeleniumTestNG.FlipKartHomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Navigations Test">
+    <classes>
+      <class name="SeleniumTestNG.FlipkartHomepageNavigationsTest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
