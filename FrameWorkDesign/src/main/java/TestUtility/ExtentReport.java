@@ -7,12 +7,12 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 public class ExtentReport {
 	
 	static String PROJECT_PATH = System.getProperty("user.dir");
-	public static String extentConfigPath = PROJECT_PATH+"\\results\\index.html";
+	public static String extentConfigPath = PROJECT_PATH+"\\results\\extentconfig.html";
 
 	ExtentTest test;
 	static ExtentReports extent;
 	
-	public void config() {
+	public static ExtentReports getReportObject() {
 		
 		ExtentSparkReporter reporter = new ExtentSparkReporter(extentConfigPath);
 		reporter.config().setReportName("Test_Results_Report");
@@ -20,6 +20,8 @@ public class ExtentReport {
 		
 		extent.attachReporter(reporter);
 		extent.setSystemInfo("Tester", "vanaja");
+		extent.createTest(extentConfigPath);
+		return extent;
 		
 	}
 	
