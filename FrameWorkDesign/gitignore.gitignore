@@ -1,0 +1,19 @@
+# Ignore IDE files
+.classpath
+.project
+.settings/
+*.iml
+.idea/
+
+# Ignore build and output directories
+target/
+bin/
+
+# Ignore test output files
+test-output/
+results/
+
+# Ignore logs and reports
+*.log
+*.html
+*.xml
