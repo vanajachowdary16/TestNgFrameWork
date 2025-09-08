@@ -15,7 +15,8 @@ public class FlipKartHomePageTest extends BaseTest{
 	
 	@BeforeTest
 	public void setUp() throws IOException {
-		landingPage = launchApplication();
+		String url="https://www.flipkart.com/";
+		landingPage = launchApplication(url);
 		
 	}
 	

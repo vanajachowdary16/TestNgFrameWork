@@ -16,7 +16,7 @@ import AbstractComponents.AbstractComponent;
 
 public class LandingPage  extends AbstractComponent{
 	
-	public static String url="https://www.flipkart.com/";
+	//public static String url="https://www.flipkart.com/";
 	public static String loginDropdownXpath="//span[text()='Login']";
 	public static String loginTextXpath ="//span[text()='Login']";
 	public WebDriver driver;
@@ -80,7 +80,7 @@ public class LandingPage  extends AbstractComponent{
 			driver.switchTo().window(childWindow);
 
 		}
-	  public void goTo() {
-			driver.get("https://www.flipkart.com/");
+	  public void goTo(String url) {
+			driver.get(url);
 		}
 }

@@ -46,7 +46,7 @@ public class BaseTest {
 		
 		String browserName = System.getProperty("browser") != null ? System.getProperty("browser") : prop.getProperty("browser");
 		//prop.getProperty("browser");
-
+		//String url="https://www.flipkart.com/";
 		if (browserName.contains("chrome")) {
 			ChromeOptions options = new ChromeOptions();
 			WebDriverManager.chromedriver().setup();
@@ -100,7 +100,7 @@ public class BaseTest {
 		FileUtils.copyFile(source, file);
 		return System.getProperty("user.dir") + "//reports//" + testCaseName + ".png";			
 	}
-	public LandingPage launchApplication() throws IOException
+	public LandingPage launchApplication(String url) throws IOException
 	{	
 //		driver = initializeDriver();
 //		landingPage = new LandingPage(driver);
@@ -109,7 +109,7 @@ public class BaseTest {
 		    driver = initializeDriver();
 		    if (driver != null) {
 		        landingPage = new LandingPage(driver);
-		        landingPage.goTo();
+				landingPage.goTo(url);
 		        return landingPage;
 		    }
 		    // Handle the case when driver initialization fails
