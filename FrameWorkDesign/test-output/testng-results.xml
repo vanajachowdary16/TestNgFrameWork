@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-14T13:47:04 IST" name="Default suite" finished-at="2025-06-14T13:47:18 IST" duration-ms="13809">
+  <suite started-at="2025-06-26T16:19:16 IST" name="Default suite" finished-at="2025-06-26T16:19:19 IST" duration-ms="3586">
     <groups>
     </groups>
-    <test started-at="2025-06-14T13:47:04 IST" name="Default test" finished-at="2025-06-14T13:47:18 IST" duration-ms="13809">
-      <class name="SeleniumTestNG.FlipkartHomepageNavigationsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@3bf7ca37]" started-at="2025-06-14T13:47:04 IST" name="setUp" finished-at="2025-06-14T13:47:08 IST" duration-ms="3431" status="PASS">
+    <test started-at="2025-06-26T16:19:16 IST" name="Default test" finished-at="2025-06-26T16:19:19 IST" duration-ms="3586">
+      <class name="SeleniumTestNG.ProductsToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTestNG.ProductsToCartTest@6be968ce]" started-at="2025-06-26T16:19:16 IST" name="setUp" finished-at="2025-06-26T16:19:19 IST" duration-ms="3028" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testNavigations()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@3bf7ca37]" started-at="2025-06-14T13:47:08 IST" name="testNavigations" finished-at="2025-06-14T13:47:18 IST" duration-ms="10035" status="PASS">
+        <test-method signature="testItemsaddToCart()[pri:0, instance:SeleniumTestNG.ProductsToCartTest@6be968ce]" started-at="2025-06-26T16:19:19 IST" name="testItemsaddToCart" finished-at="2025-06-26T16:19:19 IST" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNavigations -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNG.FlipkartHomepageNavigationsTest@3bf7ca37]" started-at="2025-06-14T13:47:18 IST" name="tearDown" finished-at="2025-06-14T13:47:18 IST" duration-ms="278" status="PASS">
+        </test-method> <!-- testItemsaddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumTestNG.ProductsToCartTest@6be968ce]" started-at="2025-06-26T16:19:19 IST" name="tearDown" finished-at="2025-06-26T16:19:19 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumTestNG.FlipkartHomepageNavigationsTest -->
+      </class> <!-- SeleniumTestNG.ProductsToCartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
